@@ -24,7 +24,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    location.href="https://cbse.gov.in/"
+    Console.log("BOARDS ARE OVER")
   }
 }, 1000);
 
